@@ -44,7 +44,7 @@ The source code for the [Mandrill Integration](https://github.com/wombat/mandril
 
 ##Schema
 
-CenitHub has a pre-defined Email Schema:
+Cenit.io has a pre-defined Email Schema:
 
 ```json
 { 

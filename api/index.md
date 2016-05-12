@@ -14,13 +14,13 @@ index_title: API
 
 ---
 
-# CenitHub API.v1
+# Cenit.io API.v1
 
 ## Routes
 
 In Rails, a resourceful route provides a mapping between HTTP verbs and URLs to controller actions. 
 
-With the next `rake task` you could visualize the diffents routes for CenitHub api:
+With the next `rake task` you could visualize the diffents routes for Cenit.io api:
 
 ```bash
 rake routes
@@ -63,7 +63,7 @@ $ curl --data @./objects.json -i -X POST \
     -H 'X-Hub-Store: YOUR_STORE_ID' \ 
     -H 'X-Hub-Access-Token: YOUR_ACCESS_TOKEN' \
     -H 'Content-type:application/json' 
-    http://www.cenithub.com/api/v1/push
+    https://cenit.io/api/v1/push
 ```
 or
 
@@ -72,19 +72,19 @@ $ curl --data @./objects.json -i -X POST \
     -H 'X-User-Access-Key: YOUR_USER_KEY' \ 
     -H 'X-User-Access-Token: YOUR_USER_ACCESS_TOKEN' \
     -H 'Content-type:application/json' 
-    http://www.cenithub.com/api/v1/push
+    https://cenit.io/api/v1/push
 ```
 
 ## Pushing Objects
 
-Allows you to send Data to CenitHub. 
+Allows you to send Data to Cenit.io. 
 
 Is possible use for:
 * setup models: connection, connection_role, flow, etc.
 * data models: any data model loaded dinamiclyv: orders, products, emails, etc.
 
 ```
-https://cenithub.com/api/v1/push
+https://Cenit.io.com/api/v1/push
 ```
 
 ### Create an Object
@@ -676,7 +676,7 @@ With setup moedels
 curl -i -X GET \
   -H 'X-User-Access-Key: N196371715' \
   -H 'X-User-Access-Token: sAgxA1kviRKnMA3eFx5_' \
-  http://www.cenithub.com/api/v1/connections/553995c06d69677e50000000
+  https://cenit.io/api/v1/connections/553995c06d69677e50000000
 ```
 
 ## Index
@@ -685,7 +685,7 @@ curl -i -X GET \
 curl -i -X GET \
   -H 'X-User-Access-Key: N196371715' \
   -H 'X-User-Access-Token: sAgxA1kviRKnMA3eFx5_' \ 
-  http://www.cenithub.com/api/v1/connections
+  https://cenit.io/api/v1/connections
 ```
 
 ## Delete
@@ -694,5 +694,5 @@ curl -i -X GET \
 curl -i -X DELETE \
   -H 'X-User-Access-Key: N196371715' \
   -H 'X-User-Access-Token: sAgxA1kviRKnMA3eFx5_' \    
-  http://www.cenithub.com/api/v1/connections/553995c06d69677e50000000
+  https://cenit.io/api/v1/connections/553995c06d69677e50000000
 ```

@@ -4,9 +4,9 @@
 # 3. config.yml
 
 name: docs
-description: CeniHub Documentation
+description: Cenit.io Documentation
 author:
-  name: CenitHub
+  name: Cenit.io
   email: sanchojaf@gmail.com
 
 # Grunt handles images and assets.

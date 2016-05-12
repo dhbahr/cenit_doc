@@ -37,7 +37,7 @@ Subscribe an e-mail to your MailChimp list
 
 ##Schema
 
-CenitHub has a pre-defined Mambers Schema:
+Cenit.io has a pre-defined Mambers Schema:
 
 ```json
 {
@@ -62,8 +62,8 @@ Sample JSON Member:
 ```json
 {
   Member {
-    "email": "cenithub@example.com",
-    "first_name": "CENITHub"
+    "email": "cenit.io@example.com",
+    "first_name": "CENIT.io"
     "last_name": "Admin Group"
   }
 }
@@ -79,8 +79,8 @@ Add to list
   "parameters": { "mailchimp_api_key":"api-key" }, 
   "list_id":"b6da59a3ab", 
    "member": { 
-           "email": "cenithub@example.com", 
-           "first_name": "CENITHub", 
+           "email": "cenit.io@example.com", 
+           "first_name": "CENIT.io", 
            "last_name": "Admin" 
    } 
 }
@@ -93,8 +93,8 @@ Add to list
    "request_id": "12e12341523e449c3000001", 
    "parameters": { "mailchimp_api_key":"apikey" }, 
    "member": { 
-           "email": "cenithub@example.com", 
-           "first_name": "CENITHub", 
+           "email": "cenit.io@example.com", 
+           "first_name": "CENIT.io", 
             "last_name": "Admin",
             "list_id":["a5b08674ef","fa2c2d7aed"]
    } 
@@ -107,6 +107,6 @@ Add to list
 ```json
   {
     "request_id": "12e12341523e449c3000001",
-    "summary": "Successfully subscribed cenithub@example.com to the MailChimp list(s)"
+    "summary": "Successfully subscribed cenit.io@example.com to the MailChimp list(s)"
   }
 ```

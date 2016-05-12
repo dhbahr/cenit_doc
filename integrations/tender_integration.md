@@ -42,7 +42,7 @@ Imports a notification message of type "notification:error" or "notification:war
 
 ##Schema
 
-CenitHub has a pre-defined Ticket Schema:
+Cenit.io has a pre-defined Ticket Schema:
 
 ```json
 {
@@ -79,7 +79,7 @@ Request for Tender Integration:
    "parameters": {
                 "tender_domain": "openjaf",
                 "tender_api_key": "api-key",
-                "tender_author_name": "CENITHub",
+                "tender_author_name": "CENIT.io",
                 "tender_author_email": "info@openjaf.com",
                 "tender_category_id": "85600",
                 "tender_public": "false"

@@ -40,7 +40,7 @@ The source code for the [Twilio Integration](https://github.com/wombat/twilio_in
 
 ##Schema
 
-CenitHub has a pre-defined SMS Schema:
+Cenit.io has a pre-defined SMS Schema:
 
 ```json
 { 
